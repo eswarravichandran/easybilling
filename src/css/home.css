@@ -1,0 +1,98 @@
+/* .show {
+    display: none;
+}
+.showmobile {
+    display: none;
+} */
+.total-price {
+    text-align: right;
+}
+.check-out {
+    width: 80%;
+    text-align: right;
+    margin: 10px auto;
+}
+.check-out button {
+    cursor: pointer;
+    outline: none;
+    border: none;
+    background-color: rgb(16, 148, 16);
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+}
+.check-out button a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Bill Details */
+.bill-details h1 {
+    text-align: center;
+    margin: 20px 0px;
+}
+.bill-details input {
+    margin: 0% 10px;
+    padding: 5px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(16, 148, 16);
+}
+
+/* Item List */
+.item-lists, .bill-details {
+    width: 80%;
+    margin: 10px auto;
+}
+.item-lists table {
+    width: 100%;
+    text-align: center;
+    border: collapse;
+}
+.item-lists table tbody tr {
+    padding: 10px 0px;
+}
+th {
+    padding-bottom: 10px;
+    border-collapse: collapse;
+    border-bottom: 5px solid rgb(16, 148, 16);
+}
+tbody tr td {
+    padding: 10px;
+    border-bottom: 1px solid grey;
+}
+/* 992 laptop */
+/* @media (min-width:642px) {
+	.show {
+		display:block !important;
+	}
+}
+@media (max-width:641px) {
+	.showmobile {
+		display:block !important;
+	}
+} */
+
+@media only screen and (max-width: 1000px) {
+    .total-price, .bill-details h1 {
+        font-size: 17px;
+    }
+    .bill-details label, .bill-details input {
+        font-size: 10px;
+        padding: 5px;
+    }
+    .item-lists, .bill-details {
+        width: 90%;
+        margin: 10px auto;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .total-price {
+        font-size: 10px;
+    }
+    .item-lists, .bill-details {
+        width: 95%;
+        margin: 10px auto;
+    }
+}

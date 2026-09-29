@@ -1,0 +1,223 @@
+/* .show {
+    display: none;
+}
+.showmobile {
+    display: none;
+} */
+.file-action {
+    padding: 10px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.file-action button {
+    outline: none;
+    background-color: rgb(16, 148, 16);
+    border: none;
+    color: white;
+    font-weight: bold;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+.items-file input {
+    margin: 5px 0px;
+}
+.items-file button {
+    outline: none;
+    border: none;
+    background-color: rgb(16, 148, 16);
+    padding: 5px 10px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.items-file h6 {
+    margin-top: 5px;
+    color: red;
+}
+
+/* Additem */
+.additem-form {
+    background-color: rgb(245, 245, 245);
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+}
+.input-data {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.input-data label {
+    padding: 5px;
+}
+.input-data input, .input-data select {
+    width: 90%;
+    outline: none;
+    border: none;
+    padding: 5px;
+}
+.input-data button {
+    width: 100%;
+    outline: none;
+    border: transparent;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    background-color: rgb(16, 148, 16);
+    cursor: pointer;
+}
+
+/* Item List */
+.item-list {
+    width: 80%;
+    margin: 10px auto;
+}
+.item-list table {
+    width: 100%;
+    text-align: center;
+    border: collapse;
+}
+.item-list table tbody tr {
+    padding: 10px 0px;
+}
+th {
+    padding-bottom: 10px;
+    border-collapse: collapse;
+    border-bottom: 5px solid rgb(16, 148, 16);
+}
+tbody tr td {
+    padding: 10px;
+    border-bottom: 1px solid grey;
+}
+.edit-item {
+    outline: none;
+    border: none;
+    background-color: orange;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+.delete-item {
+    outline: none;
+    border: none;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    margin: 0px 5px;
+    cursor: pointer;
+}
+
+@media (max-width:1350px) {
+    .additem-form {
+        width: 90%;
+    }
+    .input-data input, .input-data select {
+        width: 80%;
+    }
+}
+/* @media (min-width:642px) {
+	.show {
+		display:block !important;
+	}
+}
+@media (max-width:641px) {
+	.showmobile {
+		display:block !important;
+	}
+} */
+
+@media only screen and (max-width: 1000px) {
+    .input-data label, .input-data input, .input-data select {
+        font-size: 10px;
+    }
+    .input-data label, .input-data input, .input-data select {
+        padding: 3px;
+    }
+    .input-data button {
+        padding: 5px;
+        font-size: 10px;
+    }
+    .total-price {
+        font-size: 15px;
+    }
+    .item-list {
+        width: 90%;
+        margin: 10px auto;
+        font-size: 10px;
+    }
+    .additem-form {
+        background-color: rgb(245, 245, 245);
+        width: 90%;
+        margin: 10px auto;
+        padding: 5px;
+    }
+    .input-data {
+        padding: 5px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .file-action {
+        /* width: 100%;
+        margin: 0px auto; */
+        padding: 5px;
+    }
+    .file-action button {
+        padding: 5px;
+        font-size: 10px;
+    }
+    .items-file input {
+        margin: 5px 0px;
+    }
+    .items-file h3, .items-file input[type='file'] {
+        font-size: 10px;
+    }
+    .items-file button {
+        outline: none;
+        border: none;
+        background-color: rgb(16, 148, 16);
+        padding: 5px;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+        font-size: 10px;
+    }
+    .items-file h6 {
+        font-size: 7px;
+    }
+    .edit-item, .delete-item {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .input-data label, .input-data input, .input-data select {
+        font-size: 7px;
+    }
+    .input-data button {
+        padding: 5px;
+        font-size: 7px;
+    }
+    .total-price {
+        font-size: 12px;
+    }
+    .item-list {
+        width: 95%;
+        margin: 10px auto;
+        font-size: 7px;
+    }
+    .file-action button {
+        padding: 5px;
+        font-size: 7px;
+    }
+    .items-file h6 {
+        font-size: 7px;
+    }
+    .edit-item, .delete-item {
+        font-size: 7px;
+    }
+}

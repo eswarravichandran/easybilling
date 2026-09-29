@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+.navbar {
+    height: 10vh;
+    background-color: rgb(16, 148, 16);
+    font-family: 'Montserrat', sans-serif;
+}
+.navbar div {
+    display: flex;
+    justify-content: space-between;
+    line-height: 10vh;
+}
+.navbar div h2 {
+    margin-left: 10px;
+    color: white;
+    font-size: 25px;
+}
+.navbar div h2 span {
+    background-color: white;
+    color: rgb(16, 148, 16);
+    border-radius: 2px;
+    padding: 0px 2px;
+}
+.navbar div ul {
+    list-style: none;
+    display: flex;
+    margin-right: 10px;
+    color: white;
+}
+.navbar div ul li {
+    margin: 0px 10px;
+    font-weight: bold;
+    font-size: 15px;
+}
+.navbar div ul li a {
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
+}
+
+/* Extra small devices (phones, 600px and down) */
+/* @media only screen and (max-width: 600px) {
+    .navbar {
+        height: 5vh;
+        background-color: rgb(16, 148, 16);
+        font-family: 'Montserrat', sans-serif;
+    }
+    .navbar div {
+        display: flex;
+        justify-content: space-between;
+        line-height: 5vh;
+    }
+    .navbar div h1 {
+        font-size: 15px;
+    }
+    .navbar div ul li {
+        font-size: 12px;
+    }
+} */
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {
+    .navbar {
+        height: 5vh;
+        background-color: rgb(16, 148, 16);
+        font-family: 'Montserrat', sans-serif;
+    }
+    .navbar div {
+        display: flex;
+        justify-content: space-between;
+        line-height: 5vh;
+    }
+    .navbar div h1 {
+        font-size: 15px;
+    }
+    .navbar div ul li {
+        font-size: 12px;
+    }
+} */
+
+/* Medium devices (landscape tablets, 768px and up) */
+/* @media only screen and (min-width: 768px) {
+}  */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .navbar {
+        height: 8vh;
+        background-color: rgb(16, 148, 16);
+        font-family: 'Montserrat', sans-serif;
+    }
+    .navbar div {
+        display: flex;
+        justify-content: space-between;
+        line-height: 8vh;
+    }
+    .navbar div h1 {
+        font-size: 20px;
+    }
+    .navbar div ul li {
+        font-size: 17px;
+    }
+} */
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1000px) {
+    .navbar {
+        height: 10vh;
+        background-color: rgb(16, 148, 16);
+        font-family: 'Montserrat', sans-serif;
+    }
+    .navbar div {
+        display: flex;
+        justify-content: space-between;
+        line-height: 10vh;
+    }
+    .navbar div h2 {
+        font-size: 17px;
+    }
+    .navbar div ul li {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .navbar {
+        height: 10vh;
+        background-color: rgb(16, 148, 16);
+        font-family: 'Montserrat', sans-serif;
+    }
+    .navbar div {
+        display: flex;
+        justify-content: space-between;
+        line-height: 10vh;
+    }
+    .navbar div h2 {
+        font-size: 13px;
+    }
+    .navbar div ul li {
+        font-size: 7px;
+    }
+}

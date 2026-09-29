@@ -1,0 +1,147 @@
+/* .show {
+    display: none;
+}
+.showmobile {
+    display: none;
+} */
+.file-action {
+    padding: 10px;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-transactions: center;
+}
+.transactions-file input {
+    margin: 5px 0px;
+}
+.transactions-file button {
+    outline: none;
+    border: none;
+    background-color: rgb(16, 148, 16);
+    padding: 5px 10px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+.transactions-file h6 {
+    margin-top: 5px;
+    color: red;
+}
+
+.transaction-list {
+    width: 90%;
+    margin: 10px auto;
+}
+.transaction-list table {
+    width: 100%;
+    text-align: center;
+}
+.show-btn {
+    outline: none;
+    border: none;
+    background-color: rgb(16, 148, 16);
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+/* @media (min-width:642px) {
+	.show {
+		display:block !important;
+	}
+}
+@media (max-width:641px) {
+	.showmobile {
+		display:block !important;
+	}
+} */
+
+@media only screen and (max-width: 1000px) {
+    .input-data label, .input-data input, .input-data select {
+        font-size: 10px;
+    }
+    .input-data label, .input-data input, .input-data select {
+        padding: 3px;
+    }
+    .input-data button {
+        padding: 5px;
+        font-size: 10px;
+    }
+    .total-price {
+        font-size: 15px;
+    }
+    .transaction-list {
+        width: 90%;
+        margin: 10px auto;
+        font-size: 10px;
+    }
+    .addtransaction-form {
+        background-color: rgb(245, 245, 245);
+        width: 90%;
+        margin: 10px auto;
+        padding: 5px;
+    }
+    .input-data {
+        padding: 5px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .file-action {
+        /* width: 100%;
+        margin: 0px auto; */
+        padding: 5px;
+    }
+    .file-action button {
+        padding: 5px;
+        font-size: 10px;
+    }
+    .transactions-file input {
+        margin: 5px 0px;
+    }
+    .transactions-file h3, .transactions-file input[type='file'] {
+        font-size: 10px;
+    }
+    .transactions-file button {
+        outline: none;
+        border: none;
+        background-color: rgb(16, 148, 16);
+        padding: 5px;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+        font-size: 10px;
+    }
+    .transactions-file h6 {
+        font-size: 7px;
+    }
+    .edit-transaction, .delete-transaction {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .input-data label, .input-data input, .input-data select {
+        font-size: 7px;
+    }
+    .input-data button {
+        padding: 5px;
+        font-size: 7px;
+    }
+    .total-price {
+        font-size: 12px;
+    }
+    .transaction-list {
+        width: 95%;
+        margin: 10px auto;
+        font-size: 7px;
+    }
+    .file-action button {
+        padding: 5px;
+        font-size: 7px;
+    }
+    .transactions-file h6 {
+        font-size: 7px;
+    }
+}

@@ -1,0 +1,59 @@
+/* .show {
+    display: none;
+}
+.showmobile {
+    display: none;
+} */
+
+.date-details {
+    /* display: flex;
+    justify-content: space-between; */
+    margin: 20px auto;
+}
+.date-details h4 {
+    margin: 5px 0px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .navbar {
+        height: 4vh;
+    }
+    .navbar div {
+        line-height: 4vh;
+    }
+    .navbar div h1 {
+        font-size: 15px;
+	}
+    .check-out {
+        width: 90%;
+    }
+    .check-out button{
+        font-size: 10px;
+        padding: 5px;
+    }
+    .total-price {
+        font-size: 17px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .check-out {
+        width: 95%;
+    }
+    .check-out button{
+        font-size: 7px;
+    }
+    .total-price {
+        font-size: 10px;
+    }
+}
+
+/* @media (min-width:642px) {
+	.show {
+		display:block !important;
+	}
+}
+@media (max-width:641px) {
+	.showmobile {
+		display:block !important;
+	}
+} */
